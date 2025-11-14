@@ -1,6 +1,6 @@
 # GitHub User Explorer
 
-GitHub User Explorer is a React application that allows users to search for GitHub profiles, view basic user information, repositories, and organizations. This project is primarily a learning and experimental project, so it’s not fully polished.
+This is a React application that allows users to search for GitHub profiles, view basic user information, repositories, and organizations. This project is primarily a learning and experimental project, so it’s not fully polished.
 
 ⚠️ **Note:** This application requires a GitHub personal access token to function. Without it, fetching user data and repositories will not work. The token should be stored in a `.env` file in the root of your project.
 
@@ -44,3 +44,7 @@ cd github-user-explorer
 npm start
 
 The app should now be running at http://localhost:3000.
+
+![Search Example](img/screenshot1.png)
+![User Info](img/screenshot2.png)
+![Repositories](img/screenshot3.png)
