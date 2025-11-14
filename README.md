@@ -53,5 +53,8 @@ npm start
 ```
 The app should now be running at http://localhost:3000.
 
+## **Search Example**
 ![Search Example](my-app/public/screenshot1.png)
+
+## **User Info View**  
 ![User Info](my-app/public/screenshot2.png)
