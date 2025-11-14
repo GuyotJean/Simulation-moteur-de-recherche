@@ -39,6 +39,14 @@ git clone https://github.com/your-username/github-user-explorer.git
 ```bash
 cd github-user-explorer
 ```
+3. Create a .env file in the root of the project:
+```bash
+REACT_APP_GITHUB_TOKEN=your_personal_access_token_here
+```
+4. Install Dependencies
+```bash
+npm install
+```
 5. Start the development server:
 ```bash
 npm start
