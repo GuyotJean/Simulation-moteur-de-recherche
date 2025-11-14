@@ -1,0 +1,83 @@
+.searchZone {
+    background-color: rgb(211, 201, 201);  
+    height: 220px; 
+    width: 100%;  
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center;
+}
+
+form {
+    display: block;
+    margin: auto;
+    width: 35%;
+    height: 100px;
+}
+
+.searchBar {  
+    width: 45%;
+    height: 35px;
+    border: 1px gray solid;
+    border-radius: 15px;
+    margin: 0px 30px;
+}
+
+.searchBar:hover {
+    border: 1px gray solid;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 15px;
+    margin-right: 28px;
+}
+
+.searchBar:focus {
+    outline: none !important;
+    border: 1px gray solid;
+    box-shadow: 1px 2px 2px 1px rgb(194, 103, 103);
+    border-radius: 15px;
+    margin-right: 28px;
+}
+
+.searchButton {
+    background-image: url(https://img.myloview.fr/papiers-peints/magnifying-glass-icon-search-and-zoom-symbol-magnify-sign-magnifier-logo-web-application-and-interface-button-vector-illustration-image-isolated-on-white-background-400-236446922.jpg);
+    background-size: cover;
+    height: 33px;
+    width: 33px;
+    border: 1px gray solid;
+    box-shadow: 1px 1px 1px 1px gray;
+    float: right;
+    margin-right: 20%;
+    cursor: pointer 
+}
+
+
+.searchButton:hover {
+    border: 1px black  solid;; 
+    
+}
+
+.searchButtonClicked {
+    background-image: url(https://img.myloview.fr/papiers-peints/magnifying-glass-icon-search-and-zoom-symbol-magnify-sign-magnifier-logo-web-application-and-interface-button-vector-illustration-image-isolated-on-white-background-400-236446922.jpg);
+    background-size: cover;
+    height: 33px;
+    width: 33px;
+    border: 1px gray solid;
+    box-shadow: 1px 1px 1px 1px gray,inset 1px 1px 2px 0px gray;
+    float: right;
+    margin-right: 20%;
+}
+
+@media (max-width: 810px) {
+    form {
+        width : 90%
+    }
+
+    .searchButton {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 300px) {
+    form {
+        width : 100%
+    }
+}

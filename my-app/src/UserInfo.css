@@ -1,0 +1,157 @@
+.imageData {
+    width: 350px;
+    -webkit-box-shadow: 7px 9px 9px 5px rgba(0,0,0,0.55); 
+    box-shadow: 7px 9px 9px 5px rgba(0,0,0,0.55);   
+}
+
+.infoUsers {
+    display: inline-block;
+    width: 350px;
+    margin-left: 150px;
+}
+
+.pLocation {
+    display: inline;
+}
+
+.svgLocation {
+    margin-top: -5px;
+    margin-left: -5px;
+    position: absolute;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.repoList {
+    display : inline-block;
+    margin-left: 5%;
+    width: 950px;
+}
+
+.infoUserContainer {
+    margin-top: 50px;
+}
+
+.repoItem {
+    float: left;
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    -webkit-box-shadow: 5px 3px 3px 2px rgba(62, 61, 61, 0.22); 
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.22);
+    margin-right: 1%;
+    margin-top : 1%;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.textItem {
+    margin: 0;
+    font-size: 0.9em;
+    display: inline;
+}
+
+.orgDiv {
+    float : right;
+    width: 250px;
+    margin-right: 3%;
+    font-size : 1.2em;
+    font-weight: bold;
+    color:rgb(119, 122, 124);
+    font-style: italic;
+    text-align: center;
+}
+
+.imageOrg {
+    width: 50px;
+    display: inline-block;
+    margin : 3%;
+}
+
+.textInfo {
+    font-size : 1.2em;
+    border-bottom: 1px gray solid;
+}
+
+.locationInfo {
+    border-bottom: 1px gray solid;
+}
+
+.pLocation {
+    font-size : 1.2em;
+    margin-left: 30px;
+}
+
+.buttonRepo {
+    margin-left: 200px;
+    margin-top: 5%;
+    height: 40px;
+    width: 55px;
+    cursor: pointer;
+    border: 1px gray solid;
+    background-color: rgb(216, 217, 218);
+    border-radius: 15px;
+}
+
+.buttonRepo:hover{
+    background-color: rgb(150, 152, 153);
+}
+
+.cantClick {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.cantClick:hover {
+    background-color: rgb(216, 217, 218);
+}
+
+.nextRepo {
+    margin-right: 270px;
+    float : right; /* Permet au boutons de bouger indépendamment des autres */
+}
+
+
+#clicked {
+    margin-top: 7%;
+    border: 2px rgb(152, 74, 74) solid;
+    transition: all 0.2s;
+   
+}
+
+.divButtonsList {
+    height : 100px;
+    clear : both; /* Permet au boutons de rester avec la bonne position quand les repos ne sont pas pairs. */
+}
+
+.language {
+    float : right;
+    font-weight: 1em;
+    margin-right : 0.5%;
+}
+
+.name {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.desc {
+    display: block;
+    text-align: center;
+    margin: 6% 1% 0% 1%;
+}
+
+.circle {
+    float: right;
+    width : 12px;
+    height: 12px;
+    border-radius : 50%;
+    display : inline-block;
+    margin-right : 1.5%;
+    margin-top : 0.5%;
+    
+}

@@ -1,0 +1,38 @@
+TOKEN : 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
+
+-Object
+	-avatar_url
+
+	-html_url(github link)
+
+	-organization_url
+
+	-login
+
+	-repos_url
+
+		-name
+
+		-description
+
+		-size
+
+		-language
+
+	-url
+
+		-bio
+
+		-name
+
+		-location
+
+		-twitter
+
+		-followers
+
+		-following
+
+https://api.github.com/users/pjhyett/repos?&per_page=8	
+
+	

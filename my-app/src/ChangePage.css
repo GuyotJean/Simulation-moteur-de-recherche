@@ -1,0 +1,77 @@
+  .buttonP {
+    display: inline;
+  }
+
+  .buttons {
+    padding: 5px 8px;
+    border: 2px solid gray;
+    display: inline;
+    margin-bottom: 50px;
+    margin-top : 1%;
+  }
+
+  .next {
+    float: right;
+  }
+
+  .previous {
+    float: left;
+    margin-left : 1.5%;
+  }
+
+  .buttons:hover {
+    border: 2px solid black;
+    cursor: pointer;
+  }
+
+  .buttonsDivContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+  } 
+
+  @media (max-width: 329px) {
+    .buttonsDivContainer {
+      width: 245px;
+    }
+    
+    .previous {
+      float: left;
+      margin-left : 1%;
+    }
+}
+
+  @media (min-width: 330px) {
+    .buttonsDivContainer {
+      width: 335px;
+    }    
+}
+
+  @media (min-width: 791px) {
+    .buttonsDivContainer {
+      width: 670px;
+    }   
+    
+    .previous {
+      float: left;
+      margin-left : 0;
+    }
+  }
+
+  @media (min-width: 1230px) {
+    .buttonsDivContainer {
+      width: 1038px;
+    }
+} 
+
+
+  @media (min-width: 1500px) {
+    .buttonsDivContainer {
+      width: 1415px;
+    }
+}
+
+
+
+
