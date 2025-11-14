@@ -37,7 +37,7 @@ git clone https://github.com/your-username/github-user-explorer.git
 ```
 2. Navigate into the project folder:
 ```bash
-cd github-user-explorer
+cd my-app
 ```
 3. Create a .env file in the root of the project:
 ```bash
