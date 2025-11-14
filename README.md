@@ -34,9 +34,9 @@ This is a React application that allows users to search for GitHub profiles, vie
 
 ```bash
 git clone https://github.com/your-username/github-user-explorer.git
-
+```
 2. Navigate into the project folder:
-```bash
+
 cd github-user-explorer
 
 5. Start the development server:
