@@ -55,4 +55,3 @@ The app should now be running at http://localhost:3000.
 
 ![Search Example](img/screenshot1.png)
 ![User Info](img/screenshot2.png)
-![Repositories](img/screenshot3.png)
