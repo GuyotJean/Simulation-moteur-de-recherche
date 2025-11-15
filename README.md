@@ -21,7 +21,6 @@ This is a React application that allows users to search for GitHub profiles, vie
 - Search GitHub users by username
 - Display user information: avatar, name, login, followers, following, location
 - Display user repositories with language and size
-- Display user organizations
 - Pagination for repositories
 - Color-coded repository languages
 - Simple and responsive UI
